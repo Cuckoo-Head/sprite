@@ -13,12 +13,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;   
+    padding-top: 60px; 
 }
 
 #animacao {
     background-image: url("../img/lain-gif.png");
     width: 846px;
-    height: 800px;
+    height: 589px;
     animation: sprite 1s steps(8) infinite;
 }
 
