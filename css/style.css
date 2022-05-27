@@ -1,3 +1,20 @@
 body {
-    background: black;
+    margin: 0;
+    padding: 0;
+}
+
+#animacao {
+    background-image: url("../img/lain-gif.png");
+    width: 846px;
+    height: 800px;
+    animation: sprite 1s steps(8) infinite;
+}
+
+@keyframes sprite {
+    from {
+        background-position: 0;
+    }
+    to {
+        background-position: 6768px;
+    }
 }
